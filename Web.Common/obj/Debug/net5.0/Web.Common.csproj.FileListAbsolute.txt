@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\bin\Debug\net5.0\Web.Common.deps.json
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\bin\Debug\net5.0\Web.Common.runtimeconfig.json
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\bin\Debug\net5.0\Web.Common.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\bin\Debug\net5.0\Web.Common.dll
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\bin\Debug\net5.0\ref\Web.Common.dll
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\bin\Debug\net5.0\Web.Common.pdb
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\obj\Debug\net5.0\Web.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\obj\Debug\net5.0\Web.Common.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\obj\Debug\net5.0\Web.Common.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\obj\Debug\net5.0\Web.Common.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\obj\Debug\net5.0\Web.Common.dll
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\obj\Debug\net5.0\ref\Web.Common.dll
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\obj\Debug\net5.0\Web.Common.pdb
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Common\obj\Debug\net5.0\Web.Common.genruntimeconfig.cache

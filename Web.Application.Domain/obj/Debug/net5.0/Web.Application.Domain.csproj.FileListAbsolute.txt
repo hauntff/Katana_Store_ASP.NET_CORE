@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\bin\Debug\net5.0\Web.Application.Domain.deps.json
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\bin\Debug\net5.0\Web.Application.Domain.runtimeconfig.json
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\bin\Debug\net5.0\Web.Application.Domain.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\bin\Debug\net5.0\Web.Application.Domain.dll
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\bin\Debug\net5.0\ref\Web.Application.Domain.dll
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\bin\Debug\net5.0\Web.Application.Domain.pdb
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\obj\Debug\net5.0\Web.Application.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\obj\Debug\net5.0\Web.Application.Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\obj\Debug\net5.0\Web.Application.Domain.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\obj\Debug\net5.0\Web.Application.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\obj\Debug\net5.0\Web.Application.Domain.dll
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\obj\Debug\net5.0\ref\Web.Application.Domain.dll
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\obj\Debug\net5.0\Web.Application.Domain.pdb
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\obj\Debug\net5.0\Web.Application.Domain.genruntimeconfig.cache
+C:\Users\Admin\source\repos\Web.Application.Test\Web.Application.Domain\obj\Debug\net5.0\Web.Application.Domain.csprojAssemblyReference.cache

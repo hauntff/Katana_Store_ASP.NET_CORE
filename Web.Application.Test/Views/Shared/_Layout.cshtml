@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japanese katanas</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="icon" href="~/img/JK.ico" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Japanese katanas</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Verification" asp-action="GetOrCreateUser">Authorization</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Authorization" asp-action="Authorize">Sign in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Order" asp-action="Buy"><img id="busketico" src="~/img/busketIco.png" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div id="BackGround">
+            <img src="~/img/backgroundImg.png" />
+        </div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+<style>
+    header{
+        background-color: black;
+    }
+    .nav-item{
+        color: black;
+        border: 1px solid white;
+        background-color:white;
+    }
+    .navbar-brand{
+        color:white;
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap
+    }
+    #BackGround img{
+        
+        width: 1518px;
+        height: auto;
+    }
+    #BackGround{
+        width:max-content;
+    }
+    .navbar {
+        background-color: black;
+    }
+    .container {
+        margin: 0 auto;
+        padding: 0 !important;
+        width: max-content;
+        right: 0 !important;
+        left: 0 !important;
+        margin-left:0!important;
+        margin-right:0!important;
+    }
+    #busketico {
+        width:25px;
+        height: 24px;
+    }
+    body {
+        margin: 0 !important;
+        right: 0 !important;
+    }
+</style>

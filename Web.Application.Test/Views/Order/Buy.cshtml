@@ -1,0 +1,41 @@
+﻿@model Web.Application.Domain.Order
+
+@{
+    ViewData["Title"] = "Buy";
+}
+
+<h1>Оформление заказа</h1>
+
+<h4>Детали заказа</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Kkb" asp-action="Buy" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                @Html.DisplayFor(model => model.UserName)
+            </div>
+            <div class="form-group">
+                <label asp-for="Total" class="control-label"></label>
+                @Html.DisplayFor(model => model.Total)
+            </div>
+            <div class="form-group">
+                <label asp-for="Created" class="control-label"></label>
+                @Html.DisplayFor(model => model.Created)
+            </div>
+            <input type="hidden" name="orderId" asp-for="Id" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Web.Application.Domain.Katana>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    if (Model is null || !Model.Any())
+    {
+        <p>Книг нет и не будет, магазин закрыт!</p>
+    }
+    else
+    {
+        if (ViewBag.Manufacturers is null)
+        {
+            
+        }
+        else
+        {
+            
+            foreach (var katana in Model)
+            {
+                <form asp-controller="Order" asp-action="Buy" method="post">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="~/img/murasame.png" />
+                            <br />
+                            <p id="title">@katana.Title</p>
+                            <p id="lenght">Lenght: @katana.Lenght cm</p>
+                            <input type="hidden" name="katanaId" value="@katana.Id" />
+                            <input class="CardButton"type="submit" value="Add to cart" />
+                        </div>
+                    </div>
+                </form>
+            }
+        }
+    }
+    <style>
+        .card {
+            width: 340px;
+            height: auto;
+            display: flex;
+            margin: 0;
+            padding:0;
+            border:none;
+            font-size: 20px;
+            left: 90px;
+        }
+        form{
+            border:none;
+            display:flex;
+            flex-direction:row;
+            margin-right:20px;
+            margin-bottom: 50px;
+        }
+        img{
+            width: 300px;
+            height: 150px;
+        }
+        .CardButton{
+            background-color:white;
+            width: 300px;
+            text-align: center;
+            border: 1px black solid;
+            font-size: 24px;
+        }
+        #title{
+            font-size: 30px;
+        }
+        #lenght{
+            font-size: 18px;
+        }
+    </style>
+}

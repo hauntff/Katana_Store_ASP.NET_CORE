@@ -1,0 +1,14 @@
+﻿@model Web.Application.Domain.Kkb.KkbRequest
+@{ 
+    var config = (Web.Application.Domain.Configs.KkbConfig)ViewBag.Config;
+}
+    <body>
+        <form name='SendOrder' method='post' action='@config.KkbLogonUrl'>
+            <input type='hidden' name='email' value='@Model.Email'>
+            <input type='hidden' name='Signed_Order_B64' value='@Model.Sign'>
+            <input type='hidden' name='Language' value='rus'>
+            <input type='hidden' name='BackLink' value='@config.BackLink'>
+            <input type='hidden' name='PostLink' value='@config.PostLink'>
+        </form>
+        <script type='text/javascript'>document.forms['SendOrder'].submit();</script>
+    </body>

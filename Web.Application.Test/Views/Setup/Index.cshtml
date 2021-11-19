@@ -1,0 +1,56 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Setup";
+}
+<h2>Index</h2>
+<form method="Post" action="/Setup/Index">
+    <p>Таблица Производителей</p>
+    <code>
+        @if (ViewBag.IsEmptyManufacturers)
+        {
+            <b>Коллекция пуста. <input type="submit" name="create_manufacturers" value="Cоздать" /> новую?</b>
+        }
+        else
+        {
+            <b>Коллекция не пуста, обновить?</b>
+        }
+    </code>
+
+    <p>Таблица Катан</p>
+    <code>
+        @if (ViewBag.IsEmptyKatanas)
+        {
+            <b>Коллекция пуста. <input type="submit" name="create_katanas" value="Cоздать" /> новую?</b>
+        }
+        else
+        {
+            <b>Коллекция не пуста, обновить?</b>
+        }
+    </code>
+
+    <p>Таблица Категориев</p>
+    <code>
+        @if (ViewBag.IsEmptyCategories)
+        {
+            <b>Коллекция пуста. <input type="submit" name="create_categories" value="Cоздать" /> новую?</b>
+        }
+        else
+        {
+            <b>Коллекция не пуста, обновить?</b>
+        }
+    </code>
+
+    <p>Таблица прайсов</p>
+    <code>
+        @if (ViewBag.IsEmptyPrices)
+        {
+            <b>Коллекция пуста. <input type="submit" name="create_prices" value="Cоздать" /> новую?</b>
+        }
+        else
+        {
+            <b>Коллекция не пуста, обновить?</b>
+        }
+    </code>
+</form>
